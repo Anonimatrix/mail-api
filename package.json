@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/main.js"
+    "build": "tsc",
+    "dev": "tsc && node dist/main.js",
+    "start": "node dist/main.js"
   },
   "keywords": [],
   "author": "Ezequiel Imaz <tavelliezequiel@gmail.com>",
